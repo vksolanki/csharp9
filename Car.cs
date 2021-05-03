@@ -14,7 +14,7 @@ namespace CsharpDemo
         }
         public static IEnumerable<Car> GetCars()
         {
-            IList<Car> cars = new List<Car>()
+            List<Car> cars = new List<Car>()
             {
                 new Car() { Name = "My Car 1" },
                 new Car() { Name = "My Car 2" },
