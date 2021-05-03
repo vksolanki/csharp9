@@ -9,14 +9,14 @@ namespace CsharpDemo
     {
         public static Car GetCar()
         {
-            return new Car() { Name = "My car" };
+            return new () { Name = "My car" };
         }
         public static IEnumerable<Car> GetCars()
         {
-            List<Car> cars = new List<Car>()
+            List<Car> cars = new ()
             {
-                new Car() { Name = "My car 1" },
-                new Car() { Name = "My car 2" },
+                new () { Name = "My Car 1" },
+                new () { Name = "My Car 2" },
             };
             return cars;
         }
