@@ -28,15 +28,15 @@ namespace MyWeb
     {
         public static Student GetStudent()
         {
-            Student student = new Student()
+            Student student = new ()
             {
                 Name = "Smith",
-                Address = new Address()
+                Address = new ()
                 {
                     City = "NY",
                     Street = "Street"
                 },
-                Department = new Department()
+                Department = new ()
                 {
                     Name = "IT"
                 }
