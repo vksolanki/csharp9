@@ -26,7 +26,7 @@ namespace MyWeb
 
     public class StudentFactory
     {
-        public Student GetStudent()
+        public static Student GetStudent()
         {
             Student student = new Student()
             {
