@@ -30,7 +30,7 @@ namespace MyWeb
         {
             Student student = new Student()
             {
-                Name = "Smith",
+                Name = "Name",
                 Address = new Address()
                 {
                     City = "NY",
