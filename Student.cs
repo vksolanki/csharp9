@@ -28,20 +28,19 @@ namespace MyWeb
     {
         public static Student GetStudent()
         {
-            Student student = new ()
+            Student student = new Student()
             {
                 Name = "Name",
-                Address = new ()
+                Address = new Address()
                 {
                     City = "NY",
                     Street = "Street"
                 },
-                Department = new ()
+                Department = new Department()
                 {
                     Name = "IT"
                 }
             };
-
             return student;
         }
     }
